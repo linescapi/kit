@@ -1,0 +1,84 @@
+header {
+  padding: 15px 20px;
+}
+
+.header-container { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 5px auto;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 49%;
+}
+
+.header-left {
+  justify-content: left;
+}
+
+.header-right {
+  justify-content: right;
+}
+
+header .logo-img {
+  margin: 5px 25px 5px 0px;
+  background: url("../img/KIT-logo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.header-text {
+  margin-top: -5px;
+}
+
+.header-text h2 span {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.header-text h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header-text h3 {
+  margin: 10px 0px -10px 30px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.links-container div {
+  margin: 0 7px;
+}
+
+.links-container div a h5 {
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.links-container div a h5:hover {
+  color: #ce5689;
+}

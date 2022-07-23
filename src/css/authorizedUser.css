@@ -1,0 +1,135 @@
+.background-color {
+  border-top: 2px solid #e7a2ff;
+  border-bottom: 2px solid #e7a2ff;
+  background-color: white; /* #989898, #e7a2ff */
+  padding: 50px 15px;
+}
+
+.user-form {
+  justify-self: left;
+  height: 460px; 
+  width: 255px; /* h = w * 1.8 */
+  background-image: url("../img/KIT-form.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.edit-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.edit-form:hover {
+  color: white;
+  background-color: #5e278ebf;
+}
+
+.main-info-for-user {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.main-info-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.user-status {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.user-status h4 {
+  margin: 0 15px 0 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.status-button button {
+  padding: 10px 15px;
+  border: 2px solid #5e278ebf;
+  border-radius: 20px;
+  background-color: #e7a2ff;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.status-button button h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.886);
+}
+
+.status-button button:hover {
+  background-color: #989898;
+  border: 2px solid rgba(0, 0, 0, 0.514);
+}
+
+/*
+.status-button-on {
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.status-button-on button:hover {
+  background-color: #989898;
+  border: 2px solid rgba(0, 0, 0, 0.514);
+}
+
+.status-button-off {
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.status-button-off button:hover {
+  background-color: #e7a2ff;
+  border: 2px solid #5e278ebf;
+}
+*/
+
+.days-left {
+  margin-left: 15px;
+  border-bottom: 1px solid #5e278ebf; 
+}
+
+.days-left p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.days-left p span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #5e278ebf;
+}
+
+.recommended-kits {
+  margin-top: 70px;
+}
+
+.recommended-kits .title p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.recommended-kits .title p span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #5e278ebf;
+}
+

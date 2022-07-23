@@ -1,0 +1,115 @@
+.days-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.days-row {
+  margin: 15px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.day-item {
+  padding: 10px;
+  width: 240px;
+  height: 240px;
+  border: 5px solid #5e278e1a;
+  box-sizing: border-box;
+  background-color: #e7a2ff;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.day-item-header {
+  padding-bottom: 5px;
+  margin: 0 5px;
+  border-bottom: 2px solid #5e278e1a;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.day-item-header h5 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.add-new-mitting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.add-new-mitting:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.add-time-container {
+  box-sizing: border-box;
+  top: calc(50% - 100px);
+  left: calc(50% - 150px);
+  position: absolute;
+  padding: 20px 50px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(2, 2, 2, 0.53);
+  border-radius: 50px;
+  width: 300px;
+  height: 200px;
+  z-index: 5;
+}
+
+#add-time {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(0, 0, 0, 0.842);
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 15px;
+  outline: none;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+
+.add-time-container .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-time-container .buttons button {
+  outline: none;
+  color: rgba(0, 0, 0, 0.729);
+  border: 1px solid rgba(0, 0, 0, 0.51);
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin: 15px 10px 0px 10px;
+  cursor: pointer;
+}
+
+.add-time-container .buttons button p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
