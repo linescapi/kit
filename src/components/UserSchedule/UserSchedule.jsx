@@ -70,7 +70,7 @@ const UserSchedule = () => {
   return (
     <div className="background-color">
       <div className="container">
-        <AddTime />
+        {/* <AddTime /> */}
         <div className="days-container">
           <div className="days-row days-row-1">
             <DayItem dayName={nameOfTheDay} theDate={theDate} />
