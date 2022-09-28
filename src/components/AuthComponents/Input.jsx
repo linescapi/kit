@@ -1,8 +1,8 @@
-export const Input = ({ labelTitle, inputId }) => {
+export const Input = ({ labelTitle, inputId, inputType }) => {
   return (
     <>
       <label htmlFor={inputId}>{labelTitle}</label>
-      <input type="text" id={inputId} />
+      <input type={inputType} id={inputId} />
     </>
   );
 };
