@@ -7,7 +7,7 @@ const AuthorizationForm = () => {
     <div className="background-color">
       <div className="container">
         <div className="num-of-q">
-          <h5>1/19</h5>
+          <h5>1/20</h5>
         </div>
         <div className="auth-form-header">
           <h3>
